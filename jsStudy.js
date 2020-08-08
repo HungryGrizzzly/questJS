@@ -11,8 +11,15 @@ function sumTo(n) {
 
 //Вторая задача 
 
-for (var i = 0; i < 5; i++) {
+/*for (var i = 0; i < 5; i++) {
     setTimeout(function() {
         console.log(i);
     }(), 1000);
+}*/
+
+// Третья задача
+
+var phrase;
+function reverse (phrase) {
+    var firstArray = [...phrase].reverse().join('');
 }
